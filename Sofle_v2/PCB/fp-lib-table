@@ -1,4 +1,5 @@
 (fp_lib_table
-  (lib (name SofleKeyboard-footprint)(type KiCad)(uri /home/josef/projekty/keyboards/SofleKeyboard/footprints/SofleKeyboard-footprint.pretty)(options "")(descr ""))
-  (lib (name Keebio)(type KiCad)(uri /home/josef/projekty/keyboards/Keebio-Parts.pretty)(options "")(descr ""))
+  (version 7)
+  (lib (name "SofleKeyboard-footprint")(type "KiCad")(uri "${KIPRJMOD}/../../footprints/SofleKeyboard-footprint.pretty")(options "")(descr ""))
+  (lib (name "Keebio")(type "KiCad")(uri "${KIPRJMOD}/../../footprints/Keebio-Parts.pretty")(options "")(descr ""))
 )
