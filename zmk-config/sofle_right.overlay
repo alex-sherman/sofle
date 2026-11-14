@@ -1,0 +1,27 @@
+/*
+ * ZMK Right Half Overlay for Sofle v2 Wireless (SofleKeyboard_Right)
+ * Left-to-right physical column order (with col-offset = <6>):
+ *   Col 6  (Innermost,   SW1/7/13/19)     -> SW25A (P0.31)
+ *   Col 7  (Inner Index, SW2/8/14/20/26)  -> col4 (P0.29)
+ *   Col 8  (Index,       SW3/9/15/21/27)  -> col3 (P1.15)
+ *   Col 9  (Middle,      SW4/10/16/22/28) -> col2 (P1.13)
+ *   Col 10 (Ring,        SW5/11/17/23/29) -> col1 (P1.11)
+ *   Col 11 (Outer/Pinky, SW6/12/18/24/30) -> col0 (P1.10)
+ */
+
+#include "sofle_wireless.dtsi"
+
+&default_transform {
+    col-offset = <6>;
+};
+
+&kscan0 {
+    col-gpios
+        = <&gpio0 31 GPIO_ACTIVE_HIGH>
+        , <&gpio0 29 GPIO_ACTIVE_HIGH>
+        , <&gpio1 15 GPIO_ACTIVE_HIGH>
+        , <&gpio1 13 GPIO_ACTIVE_HIGH>
+        , <&gpio1 11 GPIO_ACTIVE_HIGH>
+        , <&gpio1 10 GPIO_ACTIVE_HIGH>
+        ;
+};
