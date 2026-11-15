@@ -473,7 +473,7 @@
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
-      "lib_symbol_issues": "ignore",
+      "lib_symbol_issues": "warning",
       "multiple_net_names": "warning",
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
@@ -486,9 +486,7 @@
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
-      "wire_dangling": "error",
-      "lib_symbol_mismatch": "ignore",
-      "footprint_link_issues": "ignore"
+      "wire_dangling": "error"
     }
   },
   "libraries": {
