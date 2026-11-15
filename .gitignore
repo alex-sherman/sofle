@@ -20,3 +20,9 @@ build/*
 *.history
 *.lck
 *.zip
+__pycache__/
+*.pyc
+*.tmp
+Sofle_v2_soldered/Case/*.png
+Sofle_v2_soldered/Case/*.step
+
